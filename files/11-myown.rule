@@ -1,0 +1,1 @@
+ACTION=="add", SYSFS(idVendor)==" ", SYSFS(idProduct)==" ", RUN+="/usr/bin/shutdown.sh"
